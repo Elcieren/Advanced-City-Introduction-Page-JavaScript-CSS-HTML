@@ -1,0 +1,373 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: 'Open Sans', Arial, sans-serif;
+    background-color:#e4e4e4;
+}
+a{
+    text-decoration: none;
+    color:#e4e4e4;
+}
+h1{
+    
+    color:#e4e4e4;
+}
+        /* Nvbar */
+#navbar{
+    color:#313131;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.75rem;
+    height: 100px;
+}
+
+#navbar ul{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    
+}
+#navbar ul li{
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    
+}
+#navbar ul li a{
+    margin: 1rem;
+    padding: 1rem;
+}
+#navbar ul li a:hover{
+    background-color: #f15c22;
+    border-radius: 4px;
+}
+.header{
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+.conteiner{
+  margin: 0px 30px;
+  padding: 5px;
+}
+div .img {
+    margin: 5px;
+    border: 2px solid #444;
+    float: left;
+    width: 180px;
+    
+}
+
+div .img:hover {
+    border: 5px solid #777;
+}
+
+div .img img {
+    width: 100%;
+    height: 200px;
+}
+
+div .desc {
+    padding: 15px;
+    text-align: center;
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+/* .container{ */
+    /* background-image: linear-gradient( 115deg, rgba(134, 156, 138, 0.8), rgba(190, 157, 113, 0.7) ), url(https://images.pexels.com/photos/716565/pexels-photo-716565.jpeg?cs=srgb&dl=pexels-lisa-fotios-716565.jpg&fm=jpg&_gl=1*1oqdoh1*_ga*MjExNzcyMzk0NS4xNjY3NDkxNjQ5*_ga_8JE65Q40S6*MTY2ODEyMDg1Ni4zLjEuMTY2ODEyMTIzMC4wLjAuMA..); */
+    /* background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    max-width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 50px 10px;
+    padding: 10px;    */
+
+#AnaSayfa{
+    margin-top: 100px;
+    padding: 0 30px;
+}
+
+#Tarihçe{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 20px;
+    margin-left:  20px;
+    margin-right: 20px;
+    padding: 20px;
+    margin-bottom: 110px;
+    border: 3px black solid;; 
+    border-radius: 5px;
+
+}
+#Tarihçe .art-sett p{
+    padding-bottom: 5px;
+}
+#Tarihçe .art-sett ul li{
+    
+list-style-position: inside;
+   
+}
+#Tarihçe .art-sett p{
+    padding-bottom: 5px;
+}
+#Tarihçe .art-sett h4{
+   padding: 5px;
+}
+#Tarihçe li{
+    margin: 10px;
+}
+#Tarihçe .illuminations {
+    list-style-position: outside;
+}
+code{ 
+    display: block;
+    text-align: left;
+    white-space: pre-line;
+    position: relative;
+    word-break: normal;
+    word-wrap: normal;
+    line-height: 2;
+    background-color:rgb(211, 207, 203);
+    padding: 15px;
+    margin: 10px;
+    border-radius: 5px;
+}
+#Tarihçe .img{
+    float: left;
+    margin: 0 15px;
+    border: 3px solid rgb(197, 194, 194);
+    
+}
+#TH-GE {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 200px;
+    
+    
+    
+   
+    
+}
+#TH-GE .img-1{
+    width: 250px;
+    min-height: auto;
+    float: right;
+   
+}
+
+
+#TH-GE .gh-sett p{
+    padding-bottom: 10px;
+}
+.yer-2{
+    margin:20px;
+    padding: 50px;
+} 
+.gh-sett p{
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.gh-sett img{
+    margin-left: 10px;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+#Konaklama{
+    margin: 0 50px 50px 50px;
+    padding: 50px;
+}
+.konaklama{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 50px auto;
+    padding: 30px;
+    border: 3px black solid;
+}
+.konaklama i{
+    padding: 0 10px;
+    
+}
+.konaklama h4{
+    font-size: 39px;
+}
+.konak{
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+}
+.konak img{
+    border-radius: 5px;
+    
+}
+#İlçeler{
+    margin: 0 50px 50px 50px;
+    padding: 50px;
+    
+}
+.ilçe-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    border: 3px black solid;
+}
+.table{
+    margin: 50px;
+    padding: 25px;
+    
+}
+#Yiyecek{
+    margin: 0 50px 50px 50px;
+    padding: 50px;
+    
+}
+.yiyecekler{
+    margin-top: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content:center ;
+    
+
+}
+.yemek-1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        width: calc(100% / 3);
+        margin: 10px;
+        border: 1px solid #000;
+        border-radius: 3px;
+    
+}
+.yemek-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: calc(100% / 3);
+    margin: 10px;
+    border: 1px solid #000;
+    border-radius: 3px;
+}
+.yemek-3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: calc(100% / 3);
+    margin: 10px;
+    border: 1px solid #000;
+    border-radius: 3px;
+}
+.yemek p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 30px; 
+}
+.yemek img{
+    border-radius: 10px;
+}
+tr:hover {background-color: coral;}
+/*   Contact  */
+#contact{
+    color:white;
+    padding: 1rem;
+    background-color: #313131;
+  }
+  #contact .contact-form{
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+   
+  }
+  #contact .contact-form ul{
+    list-style-type: none;
+    display: flex;
+    margin-top: 1rem;
+    align-self: center; 
+    
+  }
+  #contact .contact-form ul li a{
+    padding: 1rem;
+    font-size: 2rem;
+    
+  }
+  #contact .contact-form ul li i{
+    color: white;
+    
+  }
+  #contact .contact-form ul li a:hover{
+    color:rgb(0, 0, 0);
+    opacity: 0.8;
+    
+  }
+  .container{
+    width: 200px;
+    position: relative;
+}
+.click{
+    background-color: #f15c22;
+}
+.click:hover{
+    background-color: #ffc400;
+}
+.click,.links{
+    padding: 12px;
+    font-size: 1.2em;
+    font-family: futura Md BT;
+    border: none;
+    outline: none;
+    width: 200px;
+    color: #fff;
+    transition: 0.3s;
+}
+.list{
+    position: absolute;
+    transform: scaleY(0);
+    transform-origin: top;
+    transition: 0.3s;
+    
+}
+.newlist{
+    transform: scaleY(1);
+    
+}
+.links{
+    background-color: #a56216;
+}
+.links:hover{
+    background-color: #ee8308;
+    transform: scale(1.1);
+}
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
